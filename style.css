@@ -132,3 +132,26 @@ display: none;
     flex-direction: row;
     padding: 10px;
 } */
+
+
+/* Media Query */
+@media screen and (max-width: 960px) {
+    html{
+        font-size: 80%;
+    }
+  }
+@media screen and (max-width: 749px) {
+    html{
+        font-size: 60%;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .container{
+        font-size: 70%;
+    }
+  }
+@media screen and (max-width: 376px) {
+    .container{
+        font-size: 50%;
+    }
+  }
